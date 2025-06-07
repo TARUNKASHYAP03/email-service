@@ -58,7 +58,7 @@ email-service/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/email-service.git
+git clone https://github.com/TARUNKASHYAP03/email-service
 cd email-service
 ```
 
@@ -89,7 +89,7 @@ npm test
 ## 📬 Postman Setup
 
 **Endpoint**: `POST /send`
-**URL**: `http://localhost:3000/send`
+**URL**: `http://localhost:3000/send-email`
 
 ### 🔐 Headers:
 
@@ -102,7 +102,7 @@ npm test
 
 ```json
 {
-  "to": "example@gmail.com",
+  "to": "tarun@gmail.com",
   "subject": "Test Email",
   "body": "This is a sample email from our service"
 }
