@@ -1,4 +1,5 @@
 const express = require("express");
+const mockProviders = require('./mockProviders'); // ✅ correct
 const emailService = require("./emailService");
 const Logger = require("./logger");
 
